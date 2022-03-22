@@ -31,13 +31,13 @@ node.js + express 框架 搭建微型服务器
 ## 5. 浏览器地址访问
     http://localhost:8989/person  
 
-## 6.访问静态资源
+## 6. 访问静态资源
     新建staic文件夹，创建index.html文件。
     使用中间件来指定静态资源，让服务器识别
     app.use(express.static(__dirname + '/static'))
     
 
-## 在node中解决history模式404问题
+## 7. 在node中解决history模式404问题
     npm i connect-history-api-fallback
 
     引入 
